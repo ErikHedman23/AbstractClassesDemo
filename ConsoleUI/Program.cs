@@ -10,7 +10,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            List<Vehicle> vehicles = new List<Vehicle>();
+            List<Vehicle> vehicles = new List<Vehicle>(); //if you put your list inside of the abstract class, you will be unable to access it in the main method...
             /*
              * Todo follow all comments!! 
              */
