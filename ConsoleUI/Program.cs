@@ -47,7 +47,14 @@ namespace ConsoleUI
             mc.Model = "Nightster";
             mc.HasSideCart = false;
             vehicles.Add(mc);
-            Vehicle jeep = new Car();
+            Vehicle jeep = new Car(); //you can use object initializer syntax to add the other properties from Car or Motorcycle
+            /*Vehicle jeep = new Car() 
+             * {
+             * Year = 2021,
+             * HasTrunk = true,
+             * };
+             */
+            
             jeep.Year = 2021;
             jeep.Make = "Jeep";
             jeep.Model = "Rubicon";
