@@ -10,6 +10,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             List<Vehicle> vehicles = new List<Vehicle>(); //if you put your list inside of the abstract class, you will be unable to access it in the main method...
             /*
              * Todo follow all comments!! 
